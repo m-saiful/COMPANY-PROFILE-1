@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <!-- nav tablet ke atas -->
+      <ul id="nav-tablet">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Galery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="https://github.com/saifullah212" target="_blank">Project</a></li>
+      </ul>
+
+      <!-- nav mobile ke bawah -->
+      <button id="nav-mobile">Menu</button>
+    </nav>
+
+    <div class="content">
+      <!-- profile -->
+      <div class="profile">
+        <!-- left -->
+        <div class="left">
+          <img src="images/user.jpg" />
+          <div class="name-group">
+            <div class="name-work">
+              <p class="name">Muhammad Saifullah</p>
+              <p class="work">Web Programmer</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-left">Edit</button>
+              <button class="btn-right">Resume</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- right -->
+        <div class="right">
+          <div class="right-title">
+            <p>Availability</p>
+            <p>Usia</p>
+            <p>Lokasi</p>
+            <p>Pengalaman</p>
+            <p>Email</p>
+          </div>
+          <div>
+            <p>Full Time</p>
+            <p>23</p>
+            <p>Maluku, Indonesia</p>
+            <p>2</p>
+            <p>saifulamikom@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- form -->
+      <form>
+        <div>
+          <label for="masukkan nama anda">Nama</label>
+          <input type="text" name="nama" value="masukkan nama anda" />
+        </div>
+
+        <div>
+          <label for="Role"> Role</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <label for="Availability"> Availability</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <label for="Usia"> Usia</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <label for="Lokasi"> Lokasi</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <label for="Years Experience"> Years Experience</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <label for="Email"> Email</label>
+          <input type="text" />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
